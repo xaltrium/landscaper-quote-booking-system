@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import heroImage from './assets/images/landscaping_hero_1782574482901.jpg';
+import logoImage from './assets/images/localflow-logo.png';
 
 // Initial preloaded mock leads in the database
 const INITIAL_MOCK_LEADS: CustomerLead[] = [
@@ -156,7 +157,7 @@ export default function App() {
     },
     {
       q: "How many leads can I expect, and are they shared with others?",
-      a: "No. These leads are 100% exclusive to you—built on your own brand. Based on UK industry ad benchmarks (£30–£40 cost per qualified lead), a £500 budget generates 12 to 16 screened leads. At a normal closing rate of 25%, that results in 3 to 4 closed high-ticket sales."
+      a: "No. These leads are 100% exclusive to you—built on your own brand. Based on UK industry ad benchmarks (£20–£50 cost per qualified lead), a £500 budget generates 10 to 25 screened leads. At a normal closing rate of 25%, that results in 2 to 6 closed high-ticket sales."
     },
     {
       q: "Why are you doing this for £0?",
@@ -181,17 +182,9 @@ export default function App() {
       {/* Primary Header/Nav */}
       <header className="border-b border-slate-200 sticky top-0 bg-white/95 backdrop-blur-md z-40">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-emerald-700 rounded flex items-center justify-center text-white font-bold text-sm shadow-sm">
-              L
-            </div>
-            <div>
-              <span className="text-xl font-bold tracking-tight text-slate-800 block leading-none">LOCALFLOW <span className="text-emerald-700">GROWTH</span></span>
-              <span className="text-[9px] font-mono font-bold tracking-wider text-slate-400 block mt-1 uppercase">
-                THE PRICE-SHIELD™ SYSTEM
-              </span>
-            </div>
-          </div>
+          <a href="#top" className="flex items-center gap-3">
+            <img src={logoImage} alt="LocalFlow Growth logo" className="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain" />
+          </a>
 
           <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-slate-600">
             <a href="#the-offer" className="hover:text-emerald-700 transition-colors">THE PRICE-SHIELD™</a>
@@ -554,7 +547,7 @@ export default function App() {
 
           <div className="border-t border-slate-800/80 pt-6 space-y-4">
             <p className="leading-relaxed text-slate-500 max-w-4xl">
-              Disclaimer: LocalFlow Growth is an independent trade lead acquisition practice. We are not associated, affiliated, endorsed by, or in any way officially connected with Meta Platforms, Inc., Facebook, Instagram, or any of their subsidiaries. All trademarks, logos, and brand names are the property of their respective owners. UK Meta ad benchmarks and costs per lead of £30–£40 are estimates based on active industry sector diagnostics in 2026 and fluctuate based on seasonal demand, geography, and local market competitiveness.
+              Disclaimer: LocalFlow Growth is an independent trade lead acquisition practice. We are not associated, affiliated, endorsed by, or in any way officially connected with Meta Platforms, Inc., Facebook, Instagram, or any of their subsidiaries. All trademarks, logos, and brand names are the property of their respective owners. UK Meta ad benchmarks and costs per lead of £20–£50 are estimates based on active industry sector diagnostics in 2026 and fluctuate based on seasonal demand, geography, and local market competitiveness.
             </p>
           </div>
         </div>
@@ -564,7 +557,7 @@ export default function App() {
           <div className="flex flex-wrap justify-center sm:justify-start gap-6 italic">
             <span>📍 UK-WIDE SERVICE</span>
             <span>✅ £0 AGENCY FEES (FIRST 30 DAYS)</span>
-            <span>📊 META BENCHMARK LEAD COST: £30-40</span>
+            <span>📊 META BENCHMARK LEAD COST: £20-50</span>
           </div>
           <div className="text-slate-400 font-medium font-sans">
             © 2026 LOCALFLOW GROWTH. ALL RIGHTS RESERVED.
