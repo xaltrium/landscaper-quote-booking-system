@@ -183,7 +183,7 @@ export default function App() {
       <header className="border-b border-slate-200 sticky top-0 bg-white/95 backdrop-blur-md z-40">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between gap-4">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logoImage} alt="LocalFlow Growth logo" className="w-20 h-20 md:w-28 md:h-28 lg:w-36 lg:h-36 object-contain" />
+            <img src={logoImage} alt="LocalFlow Growth logo" className="w-60 h-60 md:w-72 md:h-72 lg:w-96 lg:h-96 object-contain" />
           </a>
 
           <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-slate-600">
