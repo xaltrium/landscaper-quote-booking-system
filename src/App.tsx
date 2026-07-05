@@ -514,15 +514,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 bg-emerald-700 text-white rounded flex items-center justify-center font-bold text-sm shadow-sm">
-                L
-              </div>
-              <div>
-                <span className="font-bold text-white text-base tracking-tight block">LocalFlow Growth</span>
-                <span className="text-[9px] font-mono text-emerald-500 uppercase block tracking-wider">
-                  UK Specialized Landscaper Marketing Practice
-                </span>
-              </div>
+              <img src={logoImage} alt="LocalFlow Growth logo" className="h-12 object-contain" />
             </div>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-400">
