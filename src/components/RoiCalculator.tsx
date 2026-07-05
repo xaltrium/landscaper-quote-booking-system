@@ -86,7 +86,7 @@ export default function RoiCalculator() {
             <div className="flex justify-between items-center mb-2">
               <label className="text-sm font-semibold text-slate-800 flex items-center gap-1">
                 Leads Generated (30 Days)
-                <Info className="w-3.5 h-3.5 text-slate-400 cursor-help" title="At £20-£40 per qualified lead, a £500 ad budget delivers roughly 12-25 qualified leads." />
+                <Info className="w-3.5 h-3.5 text-slate-400 cursor-help" title="At £20-40 per qualified lead, a £500 ad budget delivers roughly 12-25 qualified leads." />
               </label>
               <span className="text-lg font-bold font-mono text-emerald-800">
                 {expectedLeads} Leads
@@ -239,7 +239,7 @@ export default function RoiCalculator() {
         </div>
         
         <div className="mt-4 text-[11px] text-slate-400 text-center">
-          *Calculations based on UK Meta lead benchmark costs (£20-£40/lead). Individual results may vary.
+          *Calculations based on UK Meta lead benchmark costs (£20-40/lead). Individual results may vary.
         </div>
       </div>
     </div>

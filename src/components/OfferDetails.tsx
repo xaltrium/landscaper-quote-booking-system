@@ -133,13 +133,13 @@ export default function OfferDetails() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           <div className="space-y-1 p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
             <span className="text-slate-400 text-[10px] font-mono uppercase">Average Cost Per Lead</span>
-            <div className="text-2xl font-bold font-mono text-slate-800">£30 – £40</div>
+            <div className="text-2xl font-bold font-mono text-slate-800">20-40</div>
             <p className="text-[11px] text-slate-500">Standard Meta paid benchmark across UK landscaping markets.</p>
           </div>
 
           <div className="space-y-1 p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
             <span className="text-slate-400 text-[10px] font-mono uppercase">Projected Leads volume</span>
-            <div className="text-2xl font-bold font-mono text-emerald-800">12 – 16 Leads</div>
+            <div className="text-2xl font-bold font-mono text-emerald-800">10 – 25 Leads</div>
             <p className="text-[11px] text-slate-500">From your direct £500 Meta budget. Fully screened via 'Price-Shield'.</p>
           </div>
 
