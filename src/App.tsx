@@ -24,6 +24,7 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import heroImage from './assets/images/landscaping_hero_1782574482901.jpg';
 import logoImage from './assets/images/lfg logo cropped no bg.png';
+import logoWhite from './assets/images/lfg logo white cropped no bg.png';
 
 // Initial preloaded mock leads in the database
 const INITIAL_MOCK_LEADS: CustomerLead[] = [
@@ -514,7 +515,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="flex items-center gap-2.5">
-              <img src={logoImage} alt="LocalFlow Growth logo" className="h-12 object-contain" />
+              <img src={logoWhite} alt="LocalFlow Growth logo" className="h-24 object-contain" />
             </div>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-slate-400">
