@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import heroImage from './assets/images/landscaping_hero_1782574482901.jpg';
-import logoImage from './assets/images/localflow-logo.png';
+import logoImage from './assets/images/lfg logo cropped no bg.png';
 
 // Initial preloaded mock leads in the database
 const INITIAL_MOCK_LEADS: CustomerLead[] = [
