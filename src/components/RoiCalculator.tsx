@@ -4,7 +4,7 @@ import { TrendingUp, Sparkles, Check, Info } from 'lucide-react';
 
 export default function RoiCalculator() {
   const [avgJobValue, setAvgJobValue] = useState<number>(5000);
-  const [expectedLeads, setExpectedLeads] = useState<number>(14);
+  const [expectedLeads, setExpectedLeads] = useState<number>(25);
   const [closeRate, setCloseRate] = useState<number>(25); // 25% default
 
   // Calculations
@@ -86,7 +86,7 @@ export default function RoiCalculator() {
             <div className="flex justify-between items-center mb-2">
               <label className="text-sm font-semibold text-slate-800 flex items-center gap-1">
                 Leads Generated (30 Days)
-                <Info className="w-3.5 h-3.5 text-slate-400 cursor-help" title="At £30-£40 per qualified lead, £500 benchmark delivers 12-16 leads." />
+                <Info className="w-3.5 h-3.5 text-slate-400 cursor-help" title="At £10-£30 per qualified lead, a £500 ad budget delivers roughly 17-50 qualified leads." />
               </label>
               <span className="text-lg font-bold font-mono text-emerald-800">
                 {expectedLeads} Leads
@@ -94,17 +94,17 @@ export default function RoiCalculator() {
             </div>
             <input
               type="range"
-              min="8"
-              max="24"
+              min="17"
+              max="50"
               step="1"
               value={expectedLeads}
               onChange={(e) => setExpectedLeads(Number(e.target.value))}
               className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-emerald-700"
             />
             <div className="flex justify-between text-[11px] text-slate-400 font-mono mt-1">
-              <span>8 (Lower end)</span>
-              <span className="text-emerald-700 font-semibold">12 - 16 (Target Benchmark)</span>
-              <span>24 (Maximum)</span>
+              <span>17 (Lower end)</span>
+              <span className="text-emerald-700 font-semibold">17 - 30 (Target Benchmark)</span>
+              <span>50 (Maximum)</span>
             </div>
             <div className="mt-2.5 text-xs text-slate-500 flex justify-between font-mono">
               <span>Projected Cost Per Lead:</span>
@@ -239,7 +239,7 @@ export default function RoiCalculator() {
         </div>
         
         <div className="mt-4 text-[11px] text-slate-400 text-center">
-          *Calculations based on UK Meta lead benchmark costs (£30-£40/lead). Individual results may vary.
+          *Calculations based on UK Meta lead benchmark costs (£10-£30/lead). Individual results may vary.
         </div>
       </div>
     </div>
