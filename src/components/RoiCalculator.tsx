@@ -103,7 +103,7 @@ export default function RoiCalculator() {
             />
             <div className="flex justify-between text-[11px] text-slate-400 font-mono mt-1">
               <span>12 (Lower end)</span>
-              <span className="text-emerald-700 font-semibold">12 - 18 (Target Benchmark)</span>
+              <span className="text-emerald-700 font-semibold">14 - 22 (Target Benchmark)</span>
               <span>25 (Maximum)</span>
             </div>
             <div className="mt-2.5 text-xs text-slate-500 flex justify-between font-mono">
