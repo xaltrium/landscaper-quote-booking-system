@@ -157,7 +157,7 @@ export default function App() {
     },
     {
       q: "How many leads can I expect, and are they shared with others?",
-      a: "No. These leads are 100% exclusive to you—built on your own brand. Based on UK industry ad benchmarks (£10–£30 cost per qualified lead), a £500 budget generates 10 to 25 screened leads. At a normal closing rate of 25%, that results in 2 to 6 closed high-ticket sales.",
+      a: "No. These leads are 100% exclusive to you—built on your own brand. Based on UK industry ad benchmarks (£20–£40 cost per qualified lead), a £500 budget generates 12 to 25 screened leads. At a normal closing rate of 25%, that results in 2 to 6 closed high-ticket sales.",
     },
     {
       q: "Why are you doing this for £0?",
@@ -536,7 +536,7 @@ export default function App() {
 
           <div className="border-t border-slate-800/80 pt-6 space-y-4">
             <p className="leading-relaxed text-slate-500 max-w-4xl">
-              Disclaimer: LocalFlow Growth is an independent trade lead acquisition practice. We are not associated, affiliated, endorsed by, or in any way officially connected with Meta Platforms, Inc., Facebook, Instagram, or any of their subsidiaries. All trademarks, logos, and brand names are the property of their respective owners. UK Meta ad benchmarks and costs per lead of £10–£30 are estimates based on active industry sector diagnostics in 2026 and fluctuate based on seasonal demand, geography, and local market competitiveness.
+              Disclaimer: LocalFlow Growth is an independent trade lead acquisition practice. We are not associated, affiliated, endorsed by, or in any way officially connected with Meta Platforms, Inc., Facebook, Instagram, or any of their subsidiaries. All trademarks, logos, and brand names are the property of their respective owners. UK Meta ad benchmarks and costs per lead of £20–£40 are estimates based on active industry sector diagnostics in 2026 and fluctuate based on seasonal demand, geography, and local market competitiveness.
             </p>
           </div>
         </div>
@@ -546,7 +546,7 @@ export default function App() {
           <div className="flex flex-wrap justify-center sm:justify-start gap-6 italic">
             <span>📍 UK-WIDE SERVICE</span>
             <span>✅ £0 AGENCY FEES (FIRST 30 DAYS)</span>
-            <span>📊 META BENCHMARK LEAD COST: £10-30</span>
+            <span>📊 META BENCHMARK LEAD COST: £20-40</span>
           </div>
           <div className="text-slate-400 font-medium font-sans">
             © 2026 LOCALFLOW GROWTH. ALL RIGHTS RESERVED.
